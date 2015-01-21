@@ -1,3 +1,9 @@
+## **Note** This is a branch off of v0.1.18.
+
+This branch is pointer to the fix for [jest.dontMock('debug') not respected](https://github.com/facebook/jest/issues/77),
+which is from [pull request 122](https://github.com/facebook/jest/pull/122). It allows us to test code that uses core Node
+modules.  Unfortunately, this fix does not yet work on the master branch (as of version 0.2.1).
+
 # [Jest](http://facebook.github.io/jest/) [![Build Status](https://travis-ci.org/facebook/jest.svg?branch=master)](https://travis-ci.org/facebook/jest)
 
 Painless JavaScript Unit Testing
